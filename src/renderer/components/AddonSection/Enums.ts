@@ -17,6 +17,7 @@ export enum InstallStatus {
   DownloadCanceled,
   Unknown,
   Hidden,
+  PostProcessing,
 }
 
 export const InstallStatusCategories = {
@@ -28,6 +29,7 @@ export const InstallStatusCategories = {
     InstallStatus.InstallingDependencyEnding,
     InstallStatus.Decompressing,
     InstallStatus.DownloadRetry,
+    InstallStatus.PostProcessing,
     InstallStatus.DownloadEnding,
   ],
   installingNoProgress: [

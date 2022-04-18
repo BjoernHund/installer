@@ -247,6 +247,12 @@ const DownloadProgressBanner: FC<DownloadProgressBannerProps> = ({ addon, instal
       progressBarBg = 'bg-utility-amber';
       progressBarValue = 100;
       break;
+    case InstallStatus.PostProcessing:
+      stateIcon = <XOctagon size={40} className="mr-6 text-white" />;
+      stateText = <SmallStateText>Post Processing</SmallStateText>;
+      progressBarBg = 'bg-utility-amber';
+      progressBarValue = 100;
+      break;
     case InstallStatus.Unknown:
       stateText = <SmallStateText>Unknown state</SmallStateText>;
       progressBarBg = 'bg-utility-amber';

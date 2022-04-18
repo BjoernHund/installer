@@ -41,6 +41,7 @@ import { ErrorDialog } from 'renderer/components/Modal/ErrorDialog';
 import { InstallSizeDialog } from 'renderer/components/Modal/InstallSizeDialog';
 import { IncompatibleAddOnsCheck } from 'renderer/utils/IncompatibleAddOnsCheck';
 import { FreeDiskSpace, FreeDiskSpaceStatus } from 'renderer/utils/FreeDiskSpace';
+import { processFiles } from 'renderer/utils/PostProcessing';
 
 type FragmenterEventArguments<K extends keyof FragmenterInstallerEvents | keyof FragmenterContextEvents> = Parameters<
   (FragmenterInstallerEvents & FragmenterContextEvents)[K]
@@ -567,10 +568,15 @@ export class InstallManager {
       // Stop listening to forwarded fragmenter events
       ipcRenderer.removeListener(channels.installManager.fragmenterEvent, handleForwardedFragmenterEvent);
 
-      // Remove installs existing under alternative names
-      console.log('Removing installs existing under alternative names');
-      Directories.removeAlternativesForAddon(addon);
-      console.log('Finished removing installs existing under alternative names');
+            // Remove installs existing under alternative names
+            console.log("Removing installs existing under alternative names");
+            Directories.removeAlternativesForAddon(addon);
+            console.log("Finished removing installs existing under alternative names");
+
+            this.setCurrentInstallState(addon, { status: InstallStatus.PostProcessing });
+            console.log("Start post processing of installed files");
+            await processFiles(addon.key, destDir);
+            console.log("Finished post processing of installed files");
 
       this.notifyDownload(addon, true);
 
