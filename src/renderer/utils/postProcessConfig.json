@@ -3,12 +3,12 @@
         {
             "fileName": "html_ui/Pages/VCockpit/Instruments/Airliners/FlyByWire_A320_Neo/FCU/A320_Neo_FCU.css",
             "values": {
-                "oldValue": "--main-display-colour: hsl(30, 100%, 45%)",
+                "oldValue": "--main-display-colour: hsl(36, 100%, 45%)",
                 "newValue": "--main-display-colour: hsl(209, 100%, 51%)"
             }
         },
         {
-            "fileName": "html_ui/Pages/VCockpit/Instruments/A32NX/ATC/template.html",
+            "fileName": "html_ui/Pages/VCockpit/Instruments/A32NX/ATC/atc.css",
             "values": [
                 {
                     "oldValue": "rgba(255, 175, 0, 0.5);",
@@ -21,14 +21,14 @@
             ]
         },
         {
-            "fileName": "html_ui/Pages/VCockpit/Instruments/A32NX/BAT/template.html",
+            "fileName": "html_ui/Pages/VCockpit/Instruments/A32NX/BAT/bat.css",
             "values": {
                 "oldValue": "fill: hsl(40, 100%, 50%);",
                 "newValue": "fill: hsl(209, 100%, 51%);"
             }
         },
         {
-            "fileName": "html_ui/Pages/VCockpit/Instruments/A32NX/Clock/template.html",
+            "fileName": "html_ui/Pages/VCockpit/Instruments/A32NX/Clock/clock.css",
             "values": [
                 {
                     "oldValue": "fill: rgba(220, 220, 220, 0.85);",
@@ -41,7 +41,16 @@
             ]
         },
         {
-            "fileName": "html_ui/Pages/VCockpit/Instruments/A32NX/RMP/template.html",
+            "fileName": "html_ui/Pages/VCockpit/Instruments/A32NX/RMP/rmp.css",
+            "values": [
+                {
+                    "oldValue": "fill: hsl(40, 100%, 50%);",
+                    "newValue": "fill: hsl(209, 100%, 51%);"
+                }
+            ]
+        },
+        {
+            "fileName": "html_ui/Pages/VCockpit/Instruments/A32NX/RTPI/rtpi.css",
             "values": [
                 {
                     "oldValue": "rgba(255, 175, 0, 0.5);",
@@ -54,20 +63,7 @@
             ]
         },
         {
-            "fileName": "html_ui/Pages/VCockpit/Instruments/A32NX/RTPI/template.html",
-            "values": [
-                {
-                    "oldValue": "rgba(255, 175, 0, 0.5);",
-                    "newValue": "rgba(7, 135, 255, 0.5);"
-                },
-                {
-                    "oldValue": "fill: hsl(40, 100%, 50%);",
-                    "newValue": "fill: hsl(209, 100%, 51%);"
-                }
-            ]
-        },
-        {
-            "fileName": "effects/LIGHT_A32NX_TaxiLarge.fx",
+            "fileName": "effects/A32NX_Exterior_TaxiLarge.fx",
             "values": [
                 {
                     "oldValue": "Range=80",
@@ -80,7 +76,7 @@
             ]
         },
         {
-            "fileName": "effects/LIGHT_A32NX_TaxiLargeVol.fx",
+            "fileName": "effects/A32NX_Exterior_TaxiLargeVol.fx",
             "values": [
                 {
                     "oldValue": "Range=80",
