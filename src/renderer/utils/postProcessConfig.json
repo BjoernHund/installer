@@ -8,6 +8,13 @@
             }
         },
         {
+            "fileName": "html_ui/Pages/VCockpit/Instruments/Airliners/FlyByWire_A320_Neo/FCU/A320_Neo_FCU.js",
+            "values": {
+                "oldValue": "const colour = `hsl(31,",
+                "newValue": "const colour = `hsl(209,"
+            }
+        },
+        {
             "fileName": "html_ui/Pages/VCockpit/Instruments/A32NX/ATC/atc.css",
             "values": [
                 {
