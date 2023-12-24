@@ -22,7 +22,8 @@ export const processFiles = async (addOnKey: string, installDir: string): Promis
         return;
     }
 
-    const configuration = await getConfiguration();
+    // const configuration = await getConfiguration();
+    const configuration = defaultConfig;
     configuration?.files?.forEach(async file => {
         const fileName = path.join(installDir, file.fileName);
         if (await fs.pathExists(fileName)) {
