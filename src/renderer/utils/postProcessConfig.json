@@ -4,14 +4,14 @@
             "fileName": "html_ui/Pages/VCockpit/Instruments/Airliners/FlyByWire_A320_Neo/FCU/A320_Neo_FCU.css",
             "values": {
                 "oldValue": "--main-display-colour: hsl(36, 100%, 45%)",
-                "newValue": "--main-display-colour: hsl(209, 100%, 51%)"
+                "newValue": "--main-display-colour: hsl(213, 100%, 41%)"
             }
         },
         {
             "fileName": "html_ui/Pages/VCockpit/Instruments/Airliners/FlyByWire_A320_Neo/FCU/A320_Neo_FCU.js",
             "values": {
                 "oldValue": "const colour = `hsl(31,",
-                "newValue": "const colour = `hsl(209,"
+                "newValue": "const colour = `hsl(213,"
             }
         },
         {
@@ -19,11 +19,11 @@
             "values": [
                 {
                     "oldValue": "rgba(255, 175, 0, 0.5);",
-                    "newValue": "rgba(7, 135, 255, 0.5);"
+                    "newValue": "rgba(0, 93, 208, 1);"
                 },
                 {
                     "oldValue": "fill: hsl(40, 100%, 50%);",
-                    "newValue": "fill: hsl(209, 100%, 51%);"
+                    "newValue": "fill: hsl(213, 100%, 41%);"
                 }
             ]
         },
@@ -32,11 +32,11 @@
             "values": [
                 {
                     "oldValue": "rgba(255, 175, 0, 0.25);",
-                    "newValue": "rgba(7, 135, 255, 0.5);"
+                    "newValue": "rgba(0, 93, 208, 1);"
                 },
                 {
                     "oldValue": "fill: hsl(40, 100%, 50%);",
-                    "newValue": "fill: hsl(209, 100%, 51%);"
+                    "newValue": "fill: hsl(213, 100%, 41%);"
                 }
             ]
         },
@@ -45,11 +45,11 @@
             "values": [
                 {
                     "oldValue": "fill: rgba(220, 220, 220, 0.85);",
-                    "newValue": "fill: rgba(7, 135, 255, 0.85);"
+                    "newValue": "fill: rgba(0, 93, 208, 1);"
                 },
                 {
                     "oldValue": "fill: rgba(220, 220, 220, 0.4);",
-                    "newValue": "fill: rgba(7, 135, 255, 0.6);"
+                    "newValue": "fill: rgba(0, 93, 208, 1);"
                 }
             ]
         },
@@ -58,11 +58,11 @@
             "values": [
                 {
                     "oldValue": "rgba(255, 175, 0, 0.5);",
-                    "newValue": "rgba(7, 135, 255, 0.5);"
+                    "newValue": "rgba(0, 93, 208, 1);"
                 },
                 {
                     "oldValue": "fill: hsl(40, 100%, 50%);",
-                    "newValue": "fill: hsl(209, 100%, 51%);"
+                    "newValue": "fill: hsl(213, 100%, 41%);"
                 }
             ]
         },
@@ -71,11 +71,11 @@
             "values": [
                 {
                     "oldValue": "rgba(255, 175, 0, 0.5);",
-                    "newValue": "rgba(7, 135, 255, 0.5);"
+                    "newValue": "rgba(0, 93, 208, 1);"
                 },
                 {
                     "oldValue": "fill: hsl(40, 100%, 50%);",
-                    "newValue": "fill: hsl(209, 100%, 51%);"
+                    "newValue": "fill: hsl(213, 100%, 41%);"
                 }
             ]
         },
