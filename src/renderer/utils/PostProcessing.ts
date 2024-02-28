@@ -1,7 +1,7 @@
-import * as path from "path";
-import fs from "fs-extra";
+import * as path from 'path';
+import fs from 'fs-extra';
 
-import defaultConfig from "./postProcessConfig.json";
+import defaultConfig from './postProcessConfig.json';
 
 interface PostProcessValue {
     oldValue: string | RegExp,
